@@ -41,11 +41,11 @@ export default function RootLayout({
                     <h3 className="font-semibold text-lg mb-2">Quick Links</h3>
                     <ul className="space-y-1">
                         <li><a href="/" className="hover:underline">Home</a></li>
-                        <li><a href="/about" className="hover:underline">Who We Are</a></li>
-                        <li><a href="/services" className="hover:underline">What We Do</a></li>
-                        <li><a href="/volunteer" className="hover:underline">Volunteer</a></li>
-                        <li><a href="/donate" className="hover:underline">Donate</a></li>
-                        <li><a href="/contact" className="hover:underline">Contact</a></li>
+                        <li><a href="#about" className="hover:underline">Who We Are</a></li>
+                        <li><a href="#services" className="hover:underline">What We Do</a></li>
+                        <li><a href="#volunteer" className="hover:underline">Volunteer</a></li>
+                        <li><a href="#donate" className="hover:underline">Donate</a></li>
+                        <li><a href="#contact" className="hover:underline">Contact</a></li>
                     </ul>
                 </div>
 
