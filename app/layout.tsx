@@ -29,11 +29,55 @@ export default function RootLayout({
       >
         {children}
 
-        <footer>
-            <h1>
-            text
-            </h1>
+        <footer className="bg-gray-900 text-white text-sm mt-12 p-8">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+                {/* Column 1: About */}
+                <div>
+                    <h2 className="font-semibold text-lg mb-2">Wheels Harbison Area Transit</h2>
+                </div>
+
+                {/* Column 2: Quick Links */}
+                <div>
+                    <h3 className="font-semibold text-lg mb-2">Quick Links</h3>
+                    <ul className="space-y-1">
+                        <li><a href="/" className="hover:underline">Home</a></li>
+                        <li><a href="/about" className="hover:underline">Who We Are</a></li>
+                        <li><a href="/services" className="hover:underline">What We Do</a></li>
+                        <li><a href="/volunteer" className="hover:underline">Volunteer</a></li>
+                        <li><a href="/donate" className="hover:underline">Donate</a></li>
+                        <li><a href="/contact" className="hover:underline">Contact</a></li>
+                    </ul>
+                </div>
+
+                {/* Column 3: Contact Info */}
+                <div>
+                    <h3 className="font-semibold text-lg mb-2">Contact</h3>
+                    <p className="text-gray-300">
+                        Message Line: (803) 467-0734<br />
+                        Email: <a href="mailto:info@wheels-harbison.org" className="hover:underline">info@wheels-harbison.org</a><br />
+                        Based near Woods Edge Apartments, Columbia, South Carolina
+                    </p>
+                    <p className="mt-2 text-gray-400">Service Hours: Thurs 8:30 AM – 12:00 PM</p>
+                </div>
+
+                {/* Column 4: Support */}
+                <div>
+                    <h3 className="font-semibold text-lg mb-2">Support Our Mission</h3>
+
+                    <ul className="space-y-1 mt-2">
+                        <li><a href="/donate" className="hover:underline">Give via Midlands Gives</a></li>
+                        <li><a href="/donate" className="hover:underline">Donate with PayPal</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            {/* Bottom line */}
+            <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-400 text-xs">
+                <p>© 2025 Wheels Harbison Area Transit. All rights reserved.</p>
+                <p>A volunteer-run community service. <a href="/privacy" className="hover:underline">Privacy Policy</a> | <a href="/terms" className="hover:underline">Terms of Use</a></p>
+            </div>
         </footer>
+
       </body>
     </html>
   );
