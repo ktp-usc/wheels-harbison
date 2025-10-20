@@ -3,19 +3,19 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Image, { StaticImageData } from "next/image";
 
-import Wheels1 from "@/public/Wheels1.png";
-import Wheels2 from "@/public/Wheels2.png";
-import Wheels3 from "@/public/Wheels3.png";
-import Wheels4 from "@/public/Wheels4.png";
-import Wheels5 from "@/public/Wheels5.jpg";
-import Wheels6 from "@/public/Wheels6.jpg";
-import Wheels7 from "@/public/Wheels7.png";
-import Wheels8 from "@/public/Wheels8.jpg";
-import Wheels9 from "@/public/Wheels9.jpg";
-import Wheels10 from "@/public/Wheels10.jpg";
-import Wheels11 from "@/public/Wheels11.jpg";
-import Wheels12 from "@/public/Wheels12.jpg";
-import Wheels13 from "@/public/Wheels13.jpg";
+import Wheels1 from "@/Images/Wheels1.png";
+import Wheels2 from "@/Images/Wheels2.png";
+import Wheels3 from "@/Images/Wheels3.png";
+import Wheels4 from "@/Images/Wheels4.png";
+import Wheels5 from "@/Images/Wheels5.jpg";
+import Wheels6 from "@/Images/Wheels6.jpg";
+import Wheels7 from "@/Images/Wheels7.png";
+import Wheels8 from "@/Images/Wheels8.jpg";
+import Wheels9 from "@/Images/Wheels9.jpg";
+import Wheels10 from "@/Images/Wheels10.jpg";
+import Wheels11 from "@/Images/Wheels11.jpg";
+import Wheels12 from "@/Images/Wheels12.jpg";
+import Wheels13 from "@/Images/Wheels13.jpg";
 import AboutSections from "@/components/AboutSections";
 
 type Props = {
