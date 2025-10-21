@@ -93,7 +93,7 @@ export default function Slideshow({
             else if (e.deltaY < 0) prev();
         };
         el.addEventListener("wheel", onWheel, { passive: false });
-        return () => el.removeEventListener("wheel", onWheel as any);
+        return () => el.removeEventListener("wheel", onWheel);
     }, [next, prev]);
 
     const drag = useRef({ startX: 0, deltaX: 0, active: false });
