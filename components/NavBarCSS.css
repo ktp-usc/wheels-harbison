@@ -1,0 +1,63 @@
+nav {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #eaeaea;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style all links as buttons */
+nav a {
+    background-color: #5971a3;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color: #0059c9;
+    transform: scale(1.05);
+}
+
+/* Active (clicked) effect */
+nav a:active {
+    background-color: #00449a;
+    transform: scale(0.98);
+}
+
+nav a.special-button {
+    background-color: #aebf20; /* green */
+}
+
+nav a.special-button:hover {
+    background-color: #218838;
+}
+
+nav a.special-button:active {
+    background-color: #1e7e34;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img {
+    height: 45px;
+    width: 45px;
+}
+
+.logo h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
