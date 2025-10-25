@@ -18,6 +18,7 @@ const Navbar = () => {
             {/* <Link href="#">Calendar</Link>*/}
             {/*<Link href="#">Volunteer</Link>*/}
             {/*<Link href="#" className="special-button">Donations</Link>*/}
+            {/*<Link href="#">Zeffy</Link>*/}
         </nav>
     )
 }
