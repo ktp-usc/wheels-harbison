@@ -1,18 +1,18 @@
 "use client"
 
-import Wheels1 from "@/images/Wheels1.jpg";
-import Wheels2 from "@/images/Wheels2.png";
-import Wheels3 from "@/images/Wheels3.png";
-import Wheels4 from "@/images/Wheels4.png";
-import Wheels5 from "@/images/Wheels5.jpg";
-import Wheels6 from "@/images/Wheels6.jpg";
-import Wheels7 from "@/images/Wheels7.png";
-import Wheels8 from "@/images/Wheels8.png";
-import Wheels9 from "@/images/Wheels9.jpg";
-import Wheels10 from "@/images/Wheels10.jpg";
-import Wheels11 from "@/images/Wheels11.jpg";
-import Wheels12 from "@/images/Wheels12.jpg";
-import Wheels13 from "@/images/Wheels13.jpg";
+import Wheels1 from "@/public/images/Wheels1.jpg";
+import Wheels2 from "@/public/images/Wheels2.png";
+import Wheels3 from "@/public/images/Wheels3.png";
+import Wheels4 from "@/public/images/Wheels4.png";
+import Wheels5 from "@/public/images/Wheels5.jpg";
+import Wheels6 from "@/public/images/Wheels6.jpg";
+import Wheels7 from "@/public/images/Wheels7.png";
+import Wheels8 from "@/public/images/Wheels8.png";
+import Wheels9 from "@/public/images/Wheels9.jpg";
+import Wheels10 from "@/public/images/Wheels10.jpg";
+import Wheels11 from "@/public/images/Wheels11.jpg";
+import Wheels12 from "@/public/images/Wheels12.jpg";
+import Wheels13 from "@/public/images/Wheels13.jpg";
 import React, {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import Image, {StaticImageData} from "next/image";
 
@@ -29,7 +29,7 @@ type Props = {
 
 export default function Slideshow({
                                       images = [Wheels1, Wheels2, Wheels3, Wheels4, Wheels5, Wheels6, Wheels7, Wheels8, Wheels9, Wheels10, Wheels11, Wheels12, Wheels13],
-                                      width = 1200,
+                                      width = 1000,
                                       height = 700,
                                       autoplay = true,
                                       interval = 4000,
@@ -120,11 +120,11 @@ export default function Slideshow({
     if (!total) return null;
 
     return (
-        <div className="bg-white text-black min-h-screen flex flex-col items-center justify-start">
+        <div className="bg-white text-black py-10 flex flex-col items-center justify-center">
             <div
                 ref={containerRef}
                 tabIndex={0}
-                className="relative w-full max-w-[1200px] mx-auto select-none outline-none"
+                className="relative w-full max-w-[1000px] mx-auto select-none outline-none"
                 onPointerDown={onPointerDown}
                 onPointerMove={onPointerMove}
                 onPointerUp={onPointerUp}
