@@ -21,7 +21,8 @@ export default function DonatePage() {
             </div>
 
             <main className="font-serif max-w-6xl mx-auto py-12 px-6 space-y-10">
-                <h1 className="text-4xl font-bold text-center mb-8">Support Wheels</h1>
+                <h1 className="text-4xl font-bold text-center mb-1">Support Wheels</h1>
+                <div className="w-72 h-1 bg-black mx-auto rounded mb-8"></div>
 
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
                     <section className="text-lg leading-relaxed text-gray-800 md:w-1/2 md:pr-6">

@@ -16,7 +16,7 @@ export default function Page() {
 
             <div className="max-w-5xl mx-auto px-4 pt-10 mb-10 text-center">
                 <h2 className="text-4xl font-serif font-bold text-gray-900 mb-4">
-                    Providing free transportation to elderly and disabled residents in the Greater Harbison Area.
+                    Providing free transportation to elderly and disabled residents in the Greater Harbison Area
                 </h2>
                 <div className="w-235 h-1 bg-black mx-auto rounded mb-2"></div>
 
