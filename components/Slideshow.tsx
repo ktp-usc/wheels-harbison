@@ -3,16 +3,14 @@
 import Wheels1 from "@/images/Wheels1.jpg";
 import Wheels2 from "@/images/Wheels2.png";
 import Wheels3 from "@/images/Wheels3.png";
-import Wheels4 from "@/images/Wheels4.png";
+import Wheels4 from "@/images/Wheels4.jpg";
 import Wheels5 from "@/images/Wheels5.jpg";
 import Wheels6 from "@/images/Wheels6.jpg";
-import Wheels7 from "@/images/Wheels7.png";
+import Wheels7 from "@/images/Wheels7.jpg";
 import Wheels8 from "@/images/Wheels8.png";
 import Wheels9 from "@/images/Wheels9.jpg";
 import Wheels10 from "@/images/Wheels10.jpg";
 import Wheels11 from "@/images/Wheels11.jpg";
-import Wheels12 from "@/images/Wheels12.jpg";
-import Wheels13 from "@/images/Wheels13.jpg";
 import React, {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import Image, {StaticImageData} from "next/image";
 
@@ -28,7 +26,7 @@ type Props = {
 };
 
 export default function Slideshow({
-                                      images = [Wheels1, Wheels2, Wheels3, Wheels4, Wheels5, Wheels6, Wheels7, Wheels8, Wheels9, Wheels10, Wheels11, Wheels12, Wheels13],
+                                      images = [Wheels1, Wheels2, Wheels3, Wheels4, Wheels5, Wheels6, Wheels7, Wheels8, Wheels9, Wheels10, Wheels11],
                                       width = 1200,
                                       height = 700,
                                       autoplay = true,
