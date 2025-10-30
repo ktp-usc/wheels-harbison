@@ -103,12 +103,12 @@ export default function RootLayout({
 
                     <ul className="space-y-1 mt-2">
                         <li>
-                            <Link href="/donate" className="hover:underline">
+                            <Link href="/#donate" className="hover:underline">
                                 Give via Midlands Gives
                             </Link>
                         </li>
                         <li>
-                            <Link href="/donate" className="hover:underline">
+                            <Link href="/#donate" className="hover:underline">
                                 Donate with PayPal
                             </Link>
                         </li>
