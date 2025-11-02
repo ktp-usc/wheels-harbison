@@ -1,18 +1,18 @@
 "use client"
 
-import Wheels1 from "@/images/Wheels1.jpg";
-import Wheels2 from "@/images/Wheels2.png";
-import Wheels3 from "@/images/Wheels3.png";
-import Wheels4 from "@/images/Wheels4.png";
-import Wheels5 from "@/images/Wheels5.jpg";
-import Wheels6 from "@/images/Wheels6.jpg";
-import Wheels7 from "@/images/Wheels7.png";
-import Wheels8 from "@/images/Wheels8.png";
-import Wheels9 from "@/images/Wheels9.jpg";
-import Wheels10 from "@/images/Wheels10.jpg";
-import Wheels11 from "@/images/Wheels11.jpg";
-import Wheels12 from "@/images/Wheels12.jpg";
-import Wheels13 from "@/images/Wheels13.jpg";
+import Wheels1 from "@/app/images/Wheels1.jpg";
+import Wheels2 from "@/app/images/Wheels2.png";
+import Wheels3 from "@/app/images/Wheels3.png";
+import Wheels4 from "@/app/images/Wheels4.png";
+import Wheels5 from "@/app/images/Wheels5.jpg";
+import Wheels6 from "@/app/images/Wheels6.jpg";
+import Wheels7 from "@/app/images/Wheels7.png";
+import Wheels8 from "@/app/images/Wheels8.png";
+import Wheels9 from "@/app/images/Wheels9.jpg";
+import Wheels10 from "@/app/images/Wheels10.jpg";
+import Wheels11 from "@/app/images/Wheels11.jpg";
+import Wheels12 from "@/app/images/Wheels12.jpg";
+import Wheels13 from "@/app/images/Wheels13.jpg";
 import React, {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import Image, {StaticImageData} from "next/image";
 
