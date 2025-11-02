@@ -17,8 +17,7 @@ const Navbar = () => {
             {/*<Link href="#">Our Route</Link>*/}
             {/* <Link href="#">Calendar</Link>*/}
             {/*<Link href="#">Volunteer</Link>*/}
-            {/*<Link href="#" className="special-button">Donations</Link>*/}
-            {/*<Link href="#">Zeffy</Link>*/}
+            <Link href="https://www.zeffy.com/en-US/donation-form/help-provide-transportation-for-those-in-need/" className="special-button">Donations</Link>
         </nav>
     )
 }
