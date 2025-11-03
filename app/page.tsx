@@ -8,7 +8,7 @@ export default function Page() {
                 <h2 className="text-4xl font-serif font-bold text-gray-900 mb-4">
                     Providing free transportation to elderly and disabled residents in the Greater Harbison Area
                 </h2>
-                <div className="w-235 h-1 bg-black mx-auto rounded mb-2"></div>
+                <div className="w-235 h-1 bg-black mx-auto rounded mb-6"></div>
 
                 <Slideshow />
             </div>
