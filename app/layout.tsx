@@ -66,7 +66,7 @@ export default function RootLayout({
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="hover:underline">
+                            <Link href="/donate" className="hover:underline">
                                 Donate
                             </Link>
                         </li>
