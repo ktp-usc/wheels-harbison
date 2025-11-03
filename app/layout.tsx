@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -14,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Wheels Harbison Area Transit",
-  description: "Providing free transportation for the Wheels Harbison Area",
+    title: "Wheels Harbison Area Transit",
+    description: "Providing free transportation for the Wheels Harbison Area",
 };
 
 export default function RootLayout({
@@ -28,6 +29,7 @@ export default function RootLayout({
         <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
+        <Navbar />
         {children}
 
         <footer className="bg-gray-900 text-white text-sm mt-12 p-8">
