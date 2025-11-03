@@ -1,25 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function DonatePage() {
     return (
         <>
-            <div className="flex items-center gap-4 p-6">
-                <Image
-                    src="/images/logo.png"
-                    alt="Wheels logo"
-                    width={120}
-                    height={60}
-                    className="object-contain"
-                />
-                <Link
-                    href="/"
-                    className="text-green-700 hover:underline text-lg font-medium"
-                >
-                    ← Back to Home
-                </Link>
-            </div>
-
             <main className="font-serif max-w-6xl mx-auto py-12 px-6 space-y-10">
                 <h1 className="text-4xl font-bold text-center mb-1">Support Wheels</h1>
                 <div className="w-72 h-1 bg-black mx-auto rounded mb-8"></div>
@@ -57,7 +40,7 @@ export default function DonatePage() {
                         href="https://www.zeffy.com/en-US/donation-form/help-provide-transportation-for-those-in-need/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-green-600 hover:bg-green-700 text-white text-xl font-semibold py-4 px-8 rounded-2xl shadow-lg transition duration-200"
+                        className="bg-[#aebf20] hover:bg-[#218838] text-white text-xl font-semibold py-4 px-8 rounded-2xl shadow-lg transition duration-200"
                     >
                         Donate Now
                     </a>
