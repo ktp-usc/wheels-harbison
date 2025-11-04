@@ -2,7 +2,7 @@
 
 export default function AboutSections() {
     return (
-        <div className="w-full bg-white pt-32 pb-20">
+        <div className="w-full bg-white pt-2 pb-20">
             <div className="flex flex-col gap-20 md:flex-row justify-between">
                 {/* Who We Are Section */}
                 <section aria-labelledby="who-we-are" className="flex-1 bg-gray-50 p-10 rounded-xl shadow-md">

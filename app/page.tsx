@@ -3,12 +3,19 @@ import Slideshow from "@/components/Slideshow";
 
 export default function Page() {
     return (
-        <main>
-            <Slideshow></Slideshow>
+        <main className="relative">
+            <div className="max-w-5xl mx-auto px-4 pt-10 mb-10 text-center">
+                <h2 className="text-4xl font-serif font-bold text-gray-900 mb-4">
+                    Providing free transportation to elderly and disabled residents in the Greater Harbison Area
+                </h2>
+                <div className="w-235 h-1 bg-black mx-auto rounded mb-6"></div>
 
-            <div className="font-serif max-w-4xl mx-auto py-12 px-6">
-                <AboutSections/>
+                <Slideshow />
+            </div>
+
+            <div className="font-serif max-w-4xl mx-auto px-6">
+                <AboutSections />
             </div>
         </main>
-    )
+    );
 }
