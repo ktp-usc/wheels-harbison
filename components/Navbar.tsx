@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
             <Link href="#">Who We Are</Link>
-            {/*<Link href="#">What We Do</Link>*/}
+            <Link href="/what-we-do">What We Do</Link>
             {/*<Link href="#">Our Route</Link>*/}
             {/* <Link href="#">Calendar</Link>*/}
             {/*<Link href="#">Volunteer</Link>*/}
