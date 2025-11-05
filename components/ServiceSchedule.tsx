@@ -22,8 +22,12 @@ export default function ServiceSchedule() {
 
             <div className="mt-10">
                 <h2 className="text-2xl font-semibold mb-3">Service Route Map</h2>
-                <div className="border-2 border-dashed border-gray-300 rounded-xl p-8 text-gray-600 italic">
-                    Route map goes here.
+                <div className="flex justify-center">
+                    <img
+                        src="/images/routemap.png"
+                        alt="Wheels Harbison Service Route Map"
+                        className="shadow-lg w-full max-w-6xl border border-gray-200 rounded-xl"
+                    />
                 </div>
             </div>
         </section>
