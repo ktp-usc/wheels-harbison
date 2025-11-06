@@ -1,18 +1,5 @@
 "use client"
 
-import Wheels1 from "@/app/images/Wheels1.jpg";
-import Wheels2 from "@/app/images/Wheels2.png";
-import Wheels3 from "@/app/images/Wheels3.png";
-import Wheels4 from "@/app/images/Wheels4.png";
-import Wheels5 from "@/app/images/Wheels5.jpg";
-import Wheels6 from "@/app/images/Wheels6.jpg";
-import Wheels7 from "@/app/images/Wheels7.png";
-import Wheels8 from "@/app/images/Wheels8.png";
-import Wheels9 from "@/app/images/Wheels9.jpg";
-import Wheels10 from "@/app/images/Wheels10.jpg";
-import Wheels11 from "@/app/images/Wheels11.jpg";
-import Wheels12 from "@/app/images/Wheels12.jpg";
-import Wheels13 from "@/app/images/Wheels13.jpg";
 import React, {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import Image, {StaticImageData} from "next/image";
 
@@ -28,7 +15,19 @@ type Props = {
 };
 
 export default function Slideshow({
-                                      images = [Wheels1, Wheels2, Wheels3, Wheels4, Wheels5, Wheels6, Wheels7, Wheels8, Wheels9, Wheels10, Wheels11, Wheels12, Wheels13],
+                                      images = [
+                                          '/images/Wheels1.webp',
+                                          '/images/Wheels2.webp',
+                                          '/images/Wheels3.webp',
+                                          '/images/Wheels4.webp',
+                                          '/images/Wheels5.webp',
+                                          '/images/Wheels6.webp',
+                                          '/images/Wheels7.webp',
+                                          '/images/Wheels8.webp',
+                                          '/images/Wheels9.webp',
+                                          '/images/Wheels10.webp',
+                                          '/images/Wheels11.webp'
+                                      ],
                                       width = 1200,
                                       height = 700,
                                       autoplay = true,
