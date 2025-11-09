@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import "./NavBarCSS.css";
 
 export default function WhoWeArePage() {
     return (
