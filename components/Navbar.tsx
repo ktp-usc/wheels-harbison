@@ -12,7 +12,7 @@ const Navbar = () => {
             <Image src={wheelsharbisonlogo} alt="logo" height={40}/>
 
 
-            <Link href="#">Who We Are</Link>
+            <Link href="/WhoWeAre">Who We Are</Link>
             {/*<Link href="#">What We Do</Link>*/}
             {/*<Link href="#">Our Route</Link>*/}
             {/* <Link href="#">Calendar</Link>*/}
