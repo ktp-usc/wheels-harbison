@@ -1,5 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/image"
+import "./NavBarCSS.css"
 import wheelsharbisonlogo from "@/public/images/wheelsharbisonlogo.png"
 
 
