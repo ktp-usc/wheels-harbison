@@ -72,10 +72,10 @@ export default function WhoWeArePage() {
                         While our mission continues to thrive, sustaining our operations has become increasingly
                         difficult. Insurance costs have tripled over the past year, placing a strain on our
                         limited budget. Resident donations currently cover only a portion of our fuel expenses,
-                        and though we receive generous monthly support from Michaels Management, the loss of major
+                        and though we receive generous monthly support, the loss of major
                         funding from the Harbison Foundation has deeply impacted our ability to maintain both of
                         our buses. With rising expenses for taxes, maintenance, and fuel, Wheels faces the
-                        challenge of balancing essential community service with limited financial resources—making
+                        challenge of balancing essential community service with limited financial resources, making
                         outside donations and partnerships more important than ever.
                     </p>
                 </div>
@@ -88,10 +88,10 @@ export default function WhoWeArePage() {
                     <p className="max-w-4xl mx-auto text-lg leading-7">
                         Your support directly keeps our wheels turning. Every contribution helps us pay for
                         insurance, fuel, and maintenance so that our buses can continue transporting residents
-                        to medical appointments, grocery stores, and vital community services. A donation of
-                        just $500 a month from local partners or housing communities would ensure our long-term
+                        to medical appointments, grocery stores, and vital community services. A donation, rather big
+                        or small, would ensure our long-term
                         sustainability and guarantee transportation for residents who have no other options. By
-                        donating, you’re not only funding a ride—you’re preserving independence, dignity, and
+                        donating, you’re not only funding a ride, you’re preserving independence, dignity, and
                         human connection for our elderly and disabled neighbors in the Harbison community.
                     </p>
                 </div>
