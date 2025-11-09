@@ -51,27 +51,27 @@ export default function RootLayout({
                             </Link>
                         </li>
                         <li>
-                            <Link href="#about" className="hover:underline">
+                            <Link href="#" className="hover:underline">
                                 Who We Are
                             </Link>
                         </li>
                         <li>
-                            <Link href="#services" className="hover:underline">
+                            <Link href="#" className="hover:underline">
                                 What We Do
                             </Link>
                         </li>
                         <li>
-                            <Link href="#volunteer" className="hover:underline">
+                            <Link href="#" className="hover:underline">
                                 Volunteer
                             </Link>
                         </li>
                         <li>
-                            <Link href="#donate" className="hover:underline">
+                            <Link href="/donate" className="hover:underline">
                                 Donate
                             </Link>
                         </li>
                         <li>
-                            <Link href="#contact" className="hover:underline">
+                            <Link href="#" className="hover:underline">
                                 Contact
                             </Link>
                         </li>
@@ -86,10 +86,10 @@ export default function RootLayout({
                         <br />
                         Email:{" "}
                         <a
-                            href="mailto:info@wheels-harbison.org"
+                            href="mailto:wheelsharbison@yahoo.com"
                             className="hover:underline"
                         >
-                            info@wheels-harbison.org
+                            wheelsharbison@yahoo.com
                         </a>
                         <br />
                         Based near Woods Edge Apartments, Columbia, South Carolina
@@ -105,12 +105,12 @@ export default function RootLayout({
 
                     <ul className="space-y-1 mt-2">
                         <li>
-                            <Link href="/#donate" className="hover:underline">
-                                Give via Midlands Gives
+                            <Link href="https://www.zeffy.com/en-US/donation-form/help-provide-transportation-for-those-in-need/" className="hover:underline">
+                                Give via Zeffy
                             </Link>
                         </li>
                         <li>
-                            <Link href="/#donate" className="hover:underline">
+                            <Link href="#" className="hover:underline">
                                 Donate with PayPal
                             </Link>
                         </li>
@@ -121,16 +121,7 @@ export default function RootLayout({
             {/* Bottom line */}
             <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-400 text-xs">
                 <p>© 2025 Wheels Harbison Area Transit. All rights reserved.</p>
-                <p>
-                    A volunteer-run community service.{" "}
-                    <Link href="/privacy" className="hover:underline">
-                        Privacy Policy
-                    </Link>{" "}
-                    |{" "}
-                    <Link href="/terms" className="hover:underline">
-                        Terms of Use
-                    </Link>
-                </p>
+                <p>A volunteer-run community service.</p>
             </div>
         </footer>
         </body>
