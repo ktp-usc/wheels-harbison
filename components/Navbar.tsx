@@ -1,7 +1,7 @@
 import Link from "next/link";
 import "./NavBarCSS.css";
 import Image from "next/image";
-import wheelsharbisonlogo from "@/public/images/wheelsharbisonlogo.png"
+import wheelsharbisonlogo from "@/public/images/wheelsharbisonlogo.webp"
 
 
 
@@ -18,12 +18,10 @@ const Navbar = () => {
                 />
             </Link>
 
-
-            <Link href="/">Who We Are</Link>
-            <Link href="/what-we-do">What We Do</Link>
-            {/*<Link href="#">Our Route</Link>*/}
-            {/* <Link href="#">Calendar</Link>*/}
-            {/*<Link href="#">Volunteer</Link>*/}
+            <Link href="/">Home</Link>
+            <Link href="/about">Who We Are</Link>
+            <Link href="/service">What We Do</Link>
+            <Link href="/volunteer">Volunteer</Link>
             <Link href="/donate" className="special-button">Donations</Link>
         </nav>
     )

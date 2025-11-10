@@ -22,7 +22,7 @@ export default function WhoWeArePage() {
                     <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-8">
                         <div className="relative h-48 sm:h-56 md:h-64 rounded-lg overflow-hidden shadow">
                             <Image
-                                src="/images/WheelsTargetImage.jpg" //
+                                src="/images/WheelsTargetImage.webp" //
                                 alt="Wheels bus at Target"
                                 fill
                                 className="object-cover"
@@ -31,7 +31,7 @@ export default function WhoWeArePage() {
                         </div>
                         <div className="relative h-48 sm:h-56 md:h-64 rounded-lg overflow-hidden shadow">
                             <Image
-                                src="/images/WheelsBusImage.png" //
+                                src="/images/WheelsBusImage.webp" //
                                 alt="Assisting riders"
                                 fill
                                 className="object-cover"
@@ -39,7 +39,7 @@ export default function WhoWeArePage() {
                         </div>
                         <div className="relative h-48 sm:h-56 md:h-64 rounded-lg overflow-hidden shadow">
                             <Image
-                                src="/images/WheelsBankImage.jpg" //
+                                src="/images/WheelsBankImage.webp" //
                                 alt="Wheels bus at Wells Fargo"
                                 fill
                                 className="object-cover"

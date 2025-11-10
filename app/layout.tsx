@@ -51,28 +51,23 @@ export default function RootLayout({
                             </Link>
                         </li>
                         <li>
-                            <Link href="/" className="hover:underline">
+                            <Link href="/about" className="hover:underline">
                                 Who We Are
                             </Link>
                         </li>
                         <li>
-                            <Link href="/what-we-do" className="hover:underline">
+                            <Link href="/service" className="hover:underline">
                                 What We Do
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="hover:underline">
+                            <Link href="/volunteer" className="hover:underline">
                                 Volunteer
                             </Link>
                         </li>
                         <li>
                             <Link href="/donate" className="hover:underline">
                                 Donate
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#" className="hover:underline">
-                                Contact
                             </Link>
                         </li>
                     </ul>
@@ -107,11 +102,6 @@ export default function RootLayout({
                         <li>
                             <Link href="https://www.zeffy.com/en-US/donation-form/help-provide-transportation-for-those-in-need/" className="hover:underline">
                                 Give via Zeffy
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#" className="hover:underline">
-                                Donate with PayPal
                             </Link>
                         </li>
                     </ul>
