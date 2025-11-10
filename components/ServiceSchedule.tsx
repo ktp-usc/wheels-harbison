@@ -14,7 +14,7 @@ export default function ServiceSchedule() {
 
             <div className="flex justify-center">
                 <img
-                    src="/images/serviceschedule.png"
+                    src="/images/serviceschedule.webp"
                     alt="Wheels Harbison Service Schedule"
                     className="shadow-lg w-full max-w-8xl border border-gray-200"
                 />
@@ -24,7 +24,7 @@ export default function ServiceSchedule() {
                 <h2 className="text-2xl font-semibold mb-3">Service Route Map</h2>
                 <div className="flex justify-center">
                     <img
-                        src="/images/routemap.png"
+                        src="/images/routemap.webp"
                         alt="Wheels Harbison Service Route Map"
                         className="shadow-lg w-full max-w-6xl border border-gray-200 rounded-xl"
                     />

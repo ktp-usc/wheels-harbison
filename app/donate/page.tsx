@@ -26,7 +26,7 @@ export default function DonatePage() {
 
                     <div className="md:w-1/2 flex justify-center">
                         <Image
-                            src="/images/Van.png"
+                            src="/images/Van.webp"
                             alt="Wheels community van"
                             width={600}
                             height={400}
