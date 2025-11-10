@@ -51,12 +51,12 @@ export default function RootLayout({
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="hover:underline">
+                            <Link href="/" className="hover:underline">
                                 Who We Are
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="hover:underline">
+                            <Link href="/what-we-do" className="hover:underline">
                                 What We Do
                             </Link>
                         </li>

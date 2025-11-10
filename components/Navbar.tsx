@@ -8,12 +8,19 @@ import wheelsharbisonlogo from "@/public/images/wheelsharbisonlogo.png"
 
 const Navbar = () => {
     return (
-        <nav className="fixed top-0 left-0 w-full flex gap-4 p-4 border-b bg-white shadow-md z-50">
-        <Image src={wheelsharbisonlogo} alt="logo" height={40}/>
+        <nav className="flex gap-4 p-4 border-b">
+            <Link href="/" className="logo-link">
+                <Image
+                    src={wheelsharbisonlogo}
+                    alt="logo"
+                    height={40}
+                    className="cursor-pointer object-contain"
+                />
+            </Link>
 
 
-            <Link href="#">Who We Are</Link>
-            {/*<Link href="#">What We Do</Link>*/}
+            <Link href="/">Who We Are</Link>
+            <Link href="/what-we-do">What We Do</Link>
             {/*<Link href="#">Our Route</Link>*/}
             {/* <Link href="#">Calendar</Link>*/}
             {/*<Link href="#">Volunteer</Link>*/}
