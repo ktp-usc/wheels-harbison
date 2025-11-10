@@ -3,7 +3,7 @@ import Slideshow from "@/components/Slideshow";
 
 export default function Page() {
     return (
-        <main className="relative">
+        <main className="relative pt-15">
             <div className="max-w-5xl mx-auto px-4 pt-10 mb-10 text-center">
                 <h2 className="text-4xl font-serif font-bold text-gray-900 mb-4">
                     Providing free transportation to elderly and disabled residents in the Greater Harbison Area
