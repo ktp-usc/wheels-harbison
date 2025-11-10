@@ -20,6 +20,11 @@ nav a {
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
+nav a.logo-link {
+    background-color: white;
+    padding: 0;
+}
+
 /* Hover effect */
 nav a:hover {
     background-color: #0059c9;
@@ -53,6 +58,7 @@ nav a.special-button:active {
 .logo img {
     height: 45px;
     width: 45px;
+    background-color: #ffffff;
 }
 
 .logo h1 {
@@ -60,4 +66,3 @@ nav a.special-button:active {
     font-weight: bold;
     color: #333;
 }
-
