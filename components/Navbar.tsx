@@ -8,7 +8,7 @@ import wheelsharbisonlogo from "@/public/images/wheelsharbisonlogo.webp"
 
 const Navbar = () => {
     return (
-        <nav className="flex gap-4 p-4 border-b">
+        <nav className="fixed top-0 left-0 w-full flex gap-4 p-4 border-b bg-white shadow-md z-50">
             <Link href="/" className="logo-link">
                 <Image
                     src={wheelsharbisonlogo}
