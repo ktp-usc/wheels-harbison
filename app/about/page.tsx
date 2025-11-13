@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function WhoWeArePage() {
     return (
-        <main className="pb-24">
+        <main className="pb-24 pt-5">
 
             {/* Our Mission */}
             <section className="bg-[#1c1832] text-white mt-6">
