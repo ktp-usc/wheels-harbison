@@ -66,3 +66,37 @@ nav a.special-button:active {
     font-weight: bold;
     color: #333;
 }
+
+.nav-toggle { display: none; background: transparent; border: none; padding: 0.25rem; cursor: pointer; }
+
+.hamburger { display:block; width:22px; height:2px; background:#222; position:relative; }
+.hamburger::before, .hamburger::after { content:""; position:absolute; left:0; width:22px; height:2px; background:#222; transition:0.15s; }
+.hamburger::before { top:-7px; } .hamburger::after { top:7px; }
+.hamburger.is-open { background:transparent; }
+.hamburger.is-open::before { transform: translateY(7px) rotate(45deg); }
+.hamburger.is-open::after { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 640px) {
+    .nav-toggle { display: inline-flex; align-items:center; margin-left:0.5rem; }
+
+    .nav-links { display: none; }
+
+    .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+        margin-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .nav-links.open a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0.6rem 0.8rem;
+        border-radius: 6px;
+    }
+
+    nav { flex-wrap: wrap; justify-content: space-between; }
+}
