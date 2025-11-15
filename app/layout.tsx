@@ -32,7 +32,7 @@ export default function RootLayout({
         <Navbar />
         {children}
 
-        <footer className="bg-gray-900 text-white text-sm mt-12 p-8">
+        <footer className="bg-gray-900 text-white text-sm p-8">
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Column 1: About */}
                 <div>
@@ -76,7 +76,7 @@ export default function RootLayout({
                 {/* Column 3: Contact Info */}
                 <div>
                     <h3 className="font-semibold text-lg mb-2">Contact</h3>
-                    <p className="text-gray-300">
+                    <p>
                         Message Line: (803) 467-0734
                         <br />
                         Email:{" "}
@@ -89,7 +89,7 @@ export default function RootLayout({
                         <br />
                         Based near Woods Edge Apartments, Columbia, South Carolina
                     </p>
-                    <p className="mt-2 text-gray-400">
+                    <p className="mt-2">
                         Service Hours: Thurs 8:30 AM – 12:00 PM
                     </p>
                 </div>

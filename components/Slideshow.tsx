@@ -119,7 +119,7 @@ export default function Slideshow({
     if (!total) return null;
 
     return (
-        <div className="bg-white text-black flex flex-col items-center justify-start">
+        <div className="text-black flex flex-col items-center justify-start">
             <div
                 ref={containerRef}
                 tabIndex={0}
