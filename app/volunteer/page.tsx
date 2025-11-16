@@ -48,10 +48,10 @@ export default function VolunteerPage() {
                         Ready to volunteer? Reach out to us today!
                     </p>
                     <a
-                        href="mailto:wheelsharbison@yahoo.org"
+                        href="mailto:wheelsharbison@yahoo.com"
                         className="inline-block bg-black text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-700 transition-colors"
                     >
-                        wheelsharbison@yahoo.org
+                        wheelsharbison@yahoo.com
                     </a>
                 </section>
             </div>
