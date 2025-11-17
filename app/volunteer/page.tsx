@@ -2,7 +2,7 @@ import React from "react";
 
 export default function VolunteerPage() {
     return (
-        <main className="min-h-screen bg-gray-50 text-gray-900 p-8">
+        <main className="min-h-screen bg-gray-50 text-gray-900 p-8 pt-34">
             <h1 className="text-3xl font-bold mb-6">Volunteer with Wheels Harbison</h1>
 
             <section className="mb-8">
