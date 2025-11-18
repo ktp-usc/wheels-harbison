@@ -145,8 +145,8 @@ export default function Slideshow({
                         {slides.map((src, i) => (
                             <div
                                 key={i}
-                                className="min-w-full relative bg-white"
-                                style={{ height }}
+                                className="min-w-full relative bg-white aspect-video"
+                                // style={{ height }}
                                 role="group"
                                 aria-roledescription="slide"
                                 aria-label={`Slide ${i + 1} of ${total}`}
@@ -154,8 +154,9 @@ export default function Slideshow({
                                 <Image
                                     src={src}
                                     alt={`Slide ${i + 1}`}
-                                    width={width}
-                                    height={height}
+                                    fill
+                                    // width={width}
+                                    // height={height}
                                     sizes="(max-width: 768px) 100vw, 1200px"
                                     className="object-cover w-full h-full"
                                     priority={i === 0}
