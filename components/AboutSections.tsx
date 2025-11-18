@@ -1,6 +1,6 @@
 export default function AboutSections() {
     return (
-        <div className="w-full pb-20">
+        <div className="w-full pb-10">
             <div className="mx-auto max-w-6xl px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
                     {/* Who We Are Section */}
