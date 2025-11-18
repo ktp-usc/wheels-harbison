@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function DonatePage() {
     return (
         <>
-            <main className="font-sans bg-gradient-to-b from-gray-100 to-gray-200 mx-auto pt-35 py-12 px-6 space-y-10">
+            <main className="font-sans bg-gradient-to-b from-gray-100 to-gray-200 mx-auto pt-15 py-12 px-6 space-y-10">
                 <h1 className="text-4xl font-extrabold text-center mb-1">Support Wheels</h1>
                 <div className="w-69 h-1 bg-black mx-auto rounded mb-8"></div>
 
