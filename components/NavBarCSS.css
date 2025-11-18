@@ -4,34 +4,55 @@ nav {
     padding: 1rem 2rem;
     border-bottom: 2px solid #eaeaea;
     background-color: #ffffff;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style all links as buttons */
-nav a {
+nav a.logo-link {
+    background-color: white;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-left: auto;
+    flex: 0 0 auto;
+    min-width: 0;
+    flex-wrap: nowrap;
+}
+
+/* Style all nav links as buttons */
+.nav-links a,
+nav a:not(.logo-link) {
     background-color: #5971a3;
     color: white;
     padding: 0.6rem 1.2rem;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.2s ease, transform 0.2s ease;
-}
 
-nav a.logo-link {
-    background-color: white;
-    padding: 0;
+    transition: background-color 0.20s ease, transform 0.15s ease, opacity 0.15s ease;
+    will-change: transform, opacity;
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    white-space: nowrap;
 }
 
 /* Hover effect */
+.nav-links a:hover,
 nav a:hover {
     background-color: #0059c9;
     transform: scale(1.05);
 }
 
-/* Active (clicked) effect */
+.nav-links a:active,
 nav a:active {
     background-color: #00449a;
     transform: scale(0.98);
@@ -57,12 +78,87 @@ nav a.special-button:active {
 
 .logo img {
     height: 45px;
-    width: 45px;
+    width: auto;
     background-color: #ffffff;
+    max-width: 160px;
 }
 
 .logo h1 {
     font-size: 1.25rem;
     font-weight: bold;
     color: #333;
+}
+
+.nav-toggle { display: none; background: transparent; border: none; padding: 0.25rem; cursor: pointer; }
+
+.hamburger { display:block; width:22px; height:2px; background:#222; position:relative; }
+.hamburger::before, .hamburger::after { content:""; position:absolute; left:0; width:22px; height:2px; background:#222; transition:0.15s; }
+.hamburger::before { top:-7px; } .hamburger::after { top:7px; }
+.hamburger.is-open { background:transparent; }
+.hamburger.is-open::before { transform: translateY(7px) rotate(45deg); }
+.hamburger.is-open::after { transform: translateY(-7px) rotate(-45deg); }
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    transition: background-color 0.2s ease, transform 0.15s ease;
+    will-change: transform, background-color;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .nav-toggle:hover .hamburger {
+        transform: scale(1.05);
+        background-color: #0059c9;
+    }
+
+    .nav-toggle:hover .hamburger::before,
+    .nav-toggle:hover .hamburger::after {
+        background-color: #0059c9;
+    }
+}
+
+.nav-toggle:active .hamburger {
+    transform: scale(0.98);
+}
+
+@keyframes hamburger-press {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+}
+.nav-toggle:active .hamburger {
+    animation: hamburger-press 0.2s ease;
+}
+
+@media (max-width: 920px) {
+    .nav-toggle { display: inline-flex; align-items:center; margin-left:0.5rem; }
+
+    .nav-links { display: none; }
+
+    .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+        margin-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .nav-links.open a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0.6rem 0.8rem;
+        border-radius: 6px;
+    }
+
+    .nav-links { gap: 0.5rem; }
+    .nav-links a,
+    nav a:not(.logo-link) {
+        padding: 0.45rem 0.9rem;
+        font-size: 0.95rem;
+    }
+    .nav-links a.special-button { padding: 0.45rem 0.9rem; }
+
+    nav { flex-wrap: wrap; justify-content: space-between; }
 }
