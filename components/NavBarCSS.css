@@ -59,15 +59,15 @@ nav a:active {
 }
 
 nav a.special-button {
-    background-color: #aebf20; /* green */
+    background-color: #218838; /* green */
 }
 
 nav a.special-button:hover {
-    background-color: #218838;
+    background-color: #aebf20;
 }
 
 nav a.special-button:active {
-    background-color: #1e7e34;
+    background-color: #aebf20;
 }
 
 .logo {
