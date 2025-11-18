@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function WhoWeArePage() {
     return (
-        <main className="bg-gradient-to-b from-gray-100 to-gray-200 font-sans pb-24">
+        <main className="bg-gradient-to-b from-gray-100 to-gray-200 font-sans">
             {/* Our Mission */}
             <section>
                 <div className="max-w-6xl mx-auto px-6 py-16 text-center">
