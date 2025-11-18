@@ -4,7 +4,7 @@ nav {
     padding: 1rem 2rem;
     border-bottom: 2px solid #eaeaea;
     background-color: #ffffff;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,6 +14,7 @@ nav a.logo-link {
     padding: 0;
     display: inline-flex;
     align-items: center;
+    flex: 0 0 auto;
 }
 
 .nav-links {
@@ -21,6 +22,9 @@ nav a.logo-link {
     gap: 0.75rem;
     align-items: center;
     margin-left: auto;
+    flex: 0 0 auto;
+    min-width: 0;
+    flex-wrap: nowrap;
 }
 
 /* Style all nav links as buttons */
@@ -38,6 +42,7 @@ nav a:not(.logo-link) {
     display: inline-flex;
     align-items: center;
     gap: .4rem;
+    white-space: nowrap;
 }
 
 /* Hover effect */
@@ -73,8 +78,9 @@ nav a.special-button:active {
 
 .logo img {
     height: 45px;
-    width: 45px;
+    width: auto;
     background-color: #ffffff;
+    max-width: 160px;
 }
 
 .logo h1 {
@@ -92,7 +98,39 @@ nav a.special-button:active {
 .hamburger.is-open::before { transform: translateY(7px) rotate(45deg); }
 .hamburger.is-open::after { transform: translateY(-7px) rotate(-45deg); }
 
-@media (max-width: 640px) {
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    transition: background-color 0.2s ease, transform 0.15s ease;
+    will-change: transform, background-color;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .nav-toggle:hover .hamburger {
+        transform: scale(1.05);
+        background-color: #0059c9;
+    }
+
+    .nav-toggle:hover .hamburger::before,
+    .nav-toggle:hover .hamburger::after {
+        background-color: #0059c9;
+    }
+}
+
+.nav-toggle:active .hamburger {
+    transform: scale(0.98);
+}
+
+@keyframes hamburger-press {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+}
+.nav-toggle:active .hamburger {
+    animation: hamburger-press 0.2s ease;
+}
+
+@media (max-width: 920px) {
     .nav-toggle { display: inline-flex; align-items:center; margin-left:0.5rem; }
 
     .nav-links { display: none; }
@@ -113,6 +151,14 @@ nav a.special-button:active {
         padding: 0.6rem 0.8rem;
         border-radius: 6px;
     }
+
+    .nav-links { gap: 0.5rem; }
+    .nav-links a,
+    nav a:not(.logo-link) {
+        padding: 0.45rem 0.9rem;
+        font-size: 0.95rem;
+    }
+    .nav-links a.special-button { padding: 0.45rem 0.9rem; }
 
     nav { flex-wrap: wrap; justify-content: space-between; }
 }
