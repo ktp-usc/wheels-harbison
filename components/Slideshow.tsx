@@ -28,8 +28,8 @@ export default function Slideshow({
                                           '/images/Wheels10.webp',
                                           '/images/Wheels11.webp'
                                       ],
-                                      width = 1200,
-                                      height = 700,
+                                      //width = 1200,
+                                      //height = 700,
                                       autoplay = true,
                                       interval = 4000,
                                       showDots = true,
