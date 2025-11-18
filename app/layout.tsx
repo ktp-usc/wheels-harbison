@@ -116,5 +116,5 @@ export default function RootLayout({
         </footer>
         </body>
         </html>
-    );
+    )
 }
