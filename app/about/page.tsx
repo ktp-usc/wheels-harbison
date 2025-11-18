@@ -8,7 +8,7 @@ export default function WhoWeArePage() {
             <section>
                 <div className="max-w-6xl mx-auto px-6 py-16 text-center">
                     <h2 className="text-4xl font-extrabold text-black mb-1">Our Mission</h2>
-                    <div className="w-[210px] h-1 bg-black mx-auto rounded mb-6"></div>
+                    <div className="w-[205px] h-1 bg-black mx-auto rounded mb-6"></div>
                     <p className="max-w-4xl mx-auto text-xl leading-relaxed text-gray-800">
                         Founded in 1989, Wheels Harbison Area Transit was formed to serve HUD housing
                         residents by providing free transportation to Elderly and Disabled residents in the
