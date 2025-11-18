@@ -77,9 +77,9 @@ export default function RootLayout({
                 <div>
                     <h3 className="font-semibold text-lg mb-2">Contact</h3>
                     <p className="text-gray-300">
-                        Message Line: (803) 467-0734
+                        <strong>Message Line:</strong> (803) 467-0734
                         <br />
-                        Email:{" "}
+                        <strong>Email:</strong>{" "}
                         <a
                             href="mailto:wheelsharbison@yahoo.com"
                             className="hover:underline"
@@ -90,7 +90,7 @@ export default function RootLayout({
                         Based near Woods Edge Apartments, Columbia, South Carolina
                     </p>
                     <p className="mt-2 text-gray-400">
-                        Service Hours: Thurs 8:30 AM – 12:00 PM
+                        <strong>Service Hours:</strong> Thurs 8:30 AM – 12:00 PM
                     </p>
                 </div>
 
