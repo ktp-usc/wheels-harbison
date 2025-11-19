@@ -24,21 +24,36 @@ export default function VolunteerPage() {
                     </p>
                 </section>
 
-                {/* Volunteer Requirements */}
-                <section className="bg-white shadow-md text-center rounded-lg p-8 mb-10 hover:shadow-lg transition-shadow">
-                    <h2 className="text-4xl font-semibold mb-4 text-black">Volunteer Requirements</h2>
-                    <ul className="space-y-3 text-xl; text-center leading-relaxed text-gray-800">
-                        <li className="flex text-xl items-center justify-center">
-                            <span className="text-gray-800 mr-2">✔</span> Name, email, and phone number
-                        </li>
-                        <li className="flex text-xl items-center justify-center">
-                            <span className="text-gray-800 mr-2">✔</span> Valid driver’s license
-                        </li>
-                        <li className="flex text-xl items-center justify-center">
-                            <span className="text-gray-800 mr-2">✔</span> Ability to operate a wheelchair lift (Yes/No)
-                        </li>
-                    </ul>
+                <section className="bg-white shadow-md rounded-lg p-8 mb-10 hover:shadow-lg transition-shadow">
+                    <h2 className="text-4xl font-semibold mb-6 text-center text-black">
+                        Volunteer Requirements
+                    </h2>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                        {/* Driver Requirements */}
+                        <div>
+                            <h3 className="text-2xl font-bold mb-4 text-black text-center">Drivers</h3>
+                            <ul className="space-y-3 text-xl text-gray-800 text-center">
+                                <li>Name, email, and phone number</li>
+                                <li>Valid driver’s license</li>
+                                <li>Ability to operate a wheelchair lift</li>
+                            </ul>
+                        </div>
+
+                        {/* Other Staff Requirements */}
+                        <div>
+                            <h3 className="text-2xl font-bold mb-4 text-black text-center">Staff</h3>
+                            <ul className="space-y-3 text-xl text-gray-800 text-center">
+                                <li>Name, email, and phone number</li>
+                                <li>Ability to support passengers as needed</li>
+                                <li>Support scheduling and ride-along with passengers</li>
+                            </ul>
+                        </div>
+
+                    </div>
                 </section>
+
 
 
                 {/* Contact Information */}
