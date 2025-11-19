@@ -1,11 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function DonatePage() {
     return (
         <>
-            <main className="font-sans bg-gradient-to-b from-gray-100 to-gray-200 mx-auto pt-15 py-12 px-6 space-y-10">
-                <h1 className="text-4xl font-extrabold text-center mb-1">Support Wheels</h1>
-                <div className="w-69 h-1 bg-black mx-auto rounded mb-8"></div>
+            <main className="font-serif max-w-6xl mx-auto pt-35 py-12 px-6 space-y-10">
+                <Link href="https://www.zeffy.com/en-US/donation-form/help-provide-transportation-for-those-in-need/">
+                <h1 className="text-4xl font-bold text-center mb-1 hover:text-blue-500 transition-colors duration-200">Support Wheels</h1>
+
+                </Link>
+                <div className="w-72 h-1 bg-black mx-auto rounded mb-8"></div>
 
                 <div className="text-gray-800 flex max-w-6xl mx-auto flex-col md:flex-row items-center md:items-start gap-12">
                     <section className="text-xl leading-relaxed md:w-1/2 md:pr-6">
