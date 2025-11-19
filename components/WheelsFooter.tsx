@@ -50,7 +50,7 @@ const WheelsFooter = () => {
         <div>
             <h3 className="font-semibold text-lg mb-2">Contact</h3>
             <p className="text-gray-300">
-                Message Line: (803) 467-0734
+                Message Line: (803) 749-1911
                 <br />
                 Email:{" "}
                 <a

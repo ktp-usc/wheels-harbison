@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function AboutSections() {
     return (
         <div className="w-full pb-10">
@@ -9,7 +11,7 @@ export default function AboutSections() {
                         className="bg-gray-50 p-10 rounded-xl shadow-md flex flex-col text-center h-full"
                     >
                         <h2 id="who-we-are" className="text-4xl text-black font-bold mb-6 tracking-tight">
-                            Who We Are
+                            <Link href={"/about"}>Who We Are</Link>
                         </h2>
                         <p className="text-2xl text-gray-800 leading-relaxed flex-1">
                             Wheels Harbison Area Transit is a nonprofit organization founded in 1989
@@ -25,7 +27,7 @@ export default function AboutSections() {
                         className="bg-gray-50 p-10 rounded-xl shadow-md flex flex-col text-center h-full"
                     >
                         <h2 id="what-we-do" className="text-4xl font-bold mb-6 text-black tracking-tight">
-                            What We Do
+                            <Link href={"/service"}>What We Do</Link>
                         </h2>
                         <p className="text-2xl text-gray-800 leading-relaxed flex-1">
                             We provide free transportation to and from medical and dental appointments,
