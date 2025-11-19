@@ -6,10 +6,10 @@ export default function VolunteerPage() {
             <div className="max-w-4xl w-full">
                 {/* Header */}
                 <header className="text-center mb-12">
-                    <h1 className="text-4xl font-extrabold text-black mb-4 pt-20">
+                    <h1 className="text-4xl font-extrabold text-black mb-1">
                         Volunteer with Wheels Harbison
                     </h1>
-                    <div className="w-138 h-1 bg-black mx-auto rounded mb-8"></div>
+                    <div className="w-138 h-1 bg-black mx-auto rounded mb-6"></div>
                 </header>
 
                 {/* Overview */}
