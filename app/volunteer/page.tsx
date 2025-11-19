@@ -5,7 +5,7 @@ export default function VolunteerPage() {
         <main className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 font-sans flex flex-col items-center justify-center py-16 px-6">
             <div className="max-w-4xl w-full">
                 {/* Header */}
-                <header className="text-center mb-12">
+                <header className="text-center mb-12 pt-10">
                     <h1 className="text-4xl font-extrabold text-black mb-1">
                         Volunteer with Wheels Harbison
                     </h1>
