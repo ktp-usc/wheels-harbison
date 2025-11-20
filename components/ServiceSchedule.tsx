@@ -7,8 +7,8 @@ export default function ServiceSchedule() {
             </p>
 
             <p className="text-xl text-gray-800">
-                Please call our message line at{" "}
-                <strong>(803) 749-1911</strong> before{" "}
+                To book a ride, please call our message line at{" "}
+                <strong>(803) 749-1911</strong> and leave a message before{" "}
                 <strong>5:00 PM the day prior</strong>.
             </p>
 

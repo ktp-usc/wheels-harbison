@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function WhoWeArePage() {
     return (
-        <main className="bg-gradient-to-b from-gray-100 to-gray-200 font-sans">
+        <main className="bg-gradient-to-b from-gray-100 to-gray-200 font-sans pt-10">
             {/* Our Mission */}
             <section>
                 <div className="max-w-6xl mx-auto px-6 py-16 text-center">
@@ -50,32 +50,21 @@ export default function WhoWeArePage() {
                 </div>
             </section>
 
-            {/* Challenges */}
-            <section className="mt-12">
-                <div className="max-w-6xl mx-auto px-6 py-16 text-center bg-white shadow-md rounded-lg hover:shadow-lg transition-shadow">
-                    <h2 className="text-4xl font-semibold text-black mb-6">Challenges</h2>
-                    <p className="max-w-4xl mx-auto text-xl leading-relaxed text-gray-800">
-                        While our mission continues to thrive, sustaining our operations has become increasingly
-                        difficult. Insurance costs have tripled over the past year, placing a strain on our
-                        limited budget. Resident donations currently cover only a portion of our fuel expenses,
-                        and though we receive generous monthly support, the loss of major funding from the Harbison Foundation has deeply impacted our ability to maintain both of
-                        our buses. With rising expenses for taxes, maintenance, and fuel, Wheels faces the
-                        challenge of balancing essential community service with limited financial resources, making
-                        outside donations and partnerships more important than ever.
-                    </p>
-                </div>
-            </section>
+
 
             {/* Why We Need Your Help */}
             <section className="mt-12">
                 <div className="max-w-6xl mx-auto px-6 py-16 text-center bg-white shadow-md rounded-lg hover:shadow-lg transition-shadow">
                     <h2 className="text-4xl font-semibold text-black mb-6">Why We Need Your Help</h2>
                     <p className="max-w-4xl mx-auto text-xl leading-relaxed text-gray-800">
-                        Your support directly keeps our wheels turning. Every contribution helps us pay for
+                        Your support directly keeps our wheels turning. While our mission continues to thrive,
+                        sustaining our operations has become increasingly
+                        difficult. Insurance costs have skyrocketed in recent years, placing a strain on our
+                        limited budget. Every contribution helps us pay for
                         insurance, fuel, and maintenance so that our buses can continue transporting residents
                         to medical appointments, grocery stores, and vital community services. A donation, rather big
-                        or small, ensures our long-term sustainability and guarantees transportation for residents who have no other options.
-                        By donating, you’re not only funding a ride, you’re preserving independence, dignity, and
+                        or small, ensures our long-term sustainability and guarantees transportation for residents who
+                        have no other options. By donating, you’re preserving independence, dignity, and
                         human connection for our elderly and disabled neighbors in the Harbison community.
                     </p>
                 </div>
@@ -85,8 +74,7 @@ export default function WhoWeArePage() {
                 <div className="max-w-6xl mx-auto px-6 py-16 text-center bg-white shadow-md rounded-lg hover:shadow-lg transition-shadow">
                     <h2 className="text-4xl font-extrabold text-gray-800 mb-6">Be the reason someone gets where they need to go.</h2>
                 <Link
-                    href="https://www.zeffy.com/en-US/donation-form/help-provide-transportation-for-those-in-need/"
-                    target="_blank"
+                    href="/donate"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#218838] hover:bg-[#aebf20] text-white text-xl font-semibold py-4 px-10 rounded-2xl shadow-lg transition duration-300"
                 >
