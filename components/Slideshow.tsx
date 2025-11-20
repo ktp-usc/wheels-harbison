@@ -119,11 +119,11 @@ export default function Slideshow({
     if (!total) return null;
 
     return (
-        <div className="text-black flex flex-col items-center justify-start">
+        <div className="text-black flex flex-col items-center justify-start px-2 sm:px-4">
             <div
                 ref={containerRef}
                 tabIndex={0}
-                className="relative w-full max-w-[1200px] mx-auto select-none outline-none"
+                className="relative w-full mx-auto select-none outline-none max-w-sm sm:max-w-md md:max-w-xl lg:max-w-3xl xl:max-w-5xl"
                 onPointerDown={onPointerDown}
                 onPointerMove={onPointerMove}
                 onPointerUp={onPointerUp}
@@ -131,13 +131,11 @@ export default function Slideshow({
                 role="region"
                 aria-label={ariaLabel}
             >
-                {/* Live region for screen readers */}
                 <div className="sr-only" aria-live="polite">
                     {`Slide ${index + 1} of ${total}`}
                 </div>
 
-                {/* Slides */}
-                <div className="overflow-hidden rounded-2xl shadow-lg bg-white">
+                <div className="overflow-hidden rounded-xl md:rounded-2xl shadow-lg bg-white">
                     <div
                         className={`flex ${isDragging ? "" : "transition-transform duration-700 ease-in-out"}`}
                         style={{ transform: `translateX(-${index * 100}%)` }}
@@ -145,8 +143,7 @@ export default function Slideshow({
                         {slides.map((src, i) => (
                             <div
                                 key={i}
-                                className="min-w-full relative bg-white aspect-video"
-                                // style={{ height }}
+                                className="min-w-full relative bg-white aspect-[4/3] sm:aspect-video "
                                 role="group"
                                 aria-roledescription="slide"
                                 aria-label={`Slide ${i + 1} of ${total}`}
@@ -155,13 +152,11 @@ export default function Slideshow({
                                     src={src}
                                     alt={`Slide ${i + 1}`}
                                     fill
-                                    // width={width}
-                                    // height={height}
                                     sizes="(max-width: 768px) 100vw, 1200px"
                                     className="object-cover w-full h-full"
                                     priority={i === 0}
                                 />
-                                <div className="absolute left-4 bottom-4 bg-black/40 text-white rounded-md px-3 py-1 text-sm">
+                                <div className="absolute left-3 bottom-3 bg-black/40 text-white rounded px-2 py-1 text-xs sm:text-sm">
                                     {`${i + 1} / ${total}`}
                                 </div>
                             </div>
@@ -169,7 +164,6 @@ export default function Slideshow({
                     </div>
                 </div>
 
-                {/* Dots */}
                 {showDots && total > 1 && (
                     <div className="flex justify-center gap-2 mt-3">
                         {slides.map((_, i) => (
@@ -178,7 +172,7 @@ export default function Slideshow({
                                 onClick={() => goTo(i)}
                                 aria-label={`Go to slide ${i + 1}`}
                                 aria-current={i === index}
-                                className={`w-3 h-3 rounded-full transition-all bg-black ${i === index ? "scale-125" : "opacity-60"}`}
+                                className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all bg-black ${i === index ? "scale-125" : "opacity-50"}`}
                             />
                         ))}
                     </div>
