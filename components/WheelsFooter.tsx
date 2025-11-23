@@ -50,7 +50,13 @@ const WheelsFooter = () => {
         <div>
             <h3 className="font-semibold text-lg mb-2">Contact</h3>
             <p className="text-gray-300">
-                <strong>Message Line:</strong> (803) 749-1911
+                <strong>Message Line:</strong>{" "}
+                <a
+                    href="tel:+18037491911"
+                    className="hover:underline"
+                >
+                    (803) 749-1911
+                </a>
                 <br />
                 <strong>Email:</strong>{" "}
                 <a
@@ -64,7 +70,7 @@ const WheelsFooter = () => {
                 Based near Woods Edge Apartments, Columbia, South Carolina
             </p>
             <p className="mt-2 text-gray-400">
-                <strong>Service Hours: </strong> Thurs 8:30 AM – 12:00 PM
+                <strong>Service Hours: </strong> Monday – Friday, 8:30 AM – 12:00 PM
             </p>
         </div>
 
