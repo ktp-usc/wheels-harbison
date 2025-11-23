@@ -32,20 +32,69 @@ export default function VolunteerPage() {
                 {/* Volunteer Requirements */}
                 <section className="bg-white shadow-md text-center rounded-lg p-6 sm:p-8 mb-10 hover:shadow-lg transition-shadow">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-4 text-black">
-                        Volunteer Requirements
+                        Volunteer Role Information
                     </h2>
 
-                    <ul className="space-y-3 text-lg sm:text-xl leading-relaxed text-gray-800">
-                        <li className="flex items-center justify-center">
-                            <span className="text-gray-800 mr-2">✔</span> Name, email, and phone number
-                        </li>
-                        <li className="flex items-center justify-center">
-                            <span className="text-gray-800 mr-2">✔</span> Valid driver’s license
-                        </li>
-                        <li className="flex items-center justify-center text-center">
-                            <span className="text-gray-800 mr-2">✔</span> Ability to operate a wheelchair lift (Yes/No)
-                        </li>
-                    </ul>
+                    <p className="text-lg sm:text-xl leading-relaxed text-gray-800 px-2 pb-6">
+                        We have several roles available. Contact us if you are interested!
+                    </p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                        {/* Driver Requirements */}
+                        <div>
+                            <h3 className="text-2xl font-bold mb-4 text-black text-center">Drivers</h3>
+                            <ul className="space-y-3 text-lg sm:text-xl leading-relaxed text-gray-800">
+                                <li>Must have a valid driver’s license</li>
+                                <li>Operate a wheelchair lift to assist passengers</li>
+                            </ul>
+                        </div>
+
+                        {/* Ride along */}
+                        <div>
+                            <h3 className="text-2xl font-bold mb-4 text-black text-center">Ride-Along Staff</h3>
+                            <ul className="space-y-3 text-lg sm:text-xl leading-relaxed text-gray-800">
+                                <li>Support passengers as needed</li>
+                                <li>Bring a welcoming attitude</li>
+                            </ul>
+                        </div>
+
+                        {/* Other Staff */}
+                        <div>
+                            <h3 className="text-2xl font-bold mb-4 text-black text-center">Scheduling Coordinator</h3>
+                            <ul className="space-y-3 text-lg sm:text-xl leading-relaxed text-gray-800">
+                                <li>Receive passenger & driver availability</li>
+                                <li>Help create the weekly schedule</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 className="text-2xl font-bold mb-4 text-black text-center">Administrative Support</h3>
+                            <ul className="space-y-3 text-lg sm:text-xl leading-relaxed text-gray-800">
+                                <li>Help with daily tasks and data collection</li>
+                                <li>Learn skills to later join Wheels leadership</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 className="text-2xl font-bold mb-4 text-black text-center">Grant Writer</h3>
+                            <ul className="space-y-3 text-lg sm:text-xl leading-relaxed text-gray-800">
+                                <li>Communicate mission to other organizations</li>
+                                <li>Help secure financial support to continue operations</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 className="text-2xl font-bold mb-4 text-black text-center">Technical Support</h3>
+                            <ul className="space-y-3 text-lg sm:text-xl leading-relaxed text-gray-800">
+                                <li>Support day-to-day IT needs</li>
+                                <li>Use technology to improve Wheels operations</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
                 </section>
 
                 {/* Contact Information */}
