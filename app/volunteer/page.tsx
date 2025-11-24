@@ -39,25 +39,17 @@ export default function VolunteerPage() {
                         We have several roles available. Contact us if you are interested!
                     </p>
 
+                    {/* Driver Requirements */}
+                    <div className="pb-8">
+                        <h3 className="text-2xl font-bold mb-4 text-black text-center">Drivers</h3>
+                        <ul className="space-y-3 text-lg sm:text-xl leading-relaxed text-gray-800">
+                            <li><i>Must have a valid driver’s license</i></li>
+                            <li>Drive the bus per the weekly schedule</li>
+                            <li>Operate a wheelchair lift to assist passengers</li>
+                        </ul>
+                    </div>
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-                        {/* Driver Requirements */}
-                        <div>
-                            <h3 className="text-2xl font-bold mb-4 text-black text-center">Drivers</h3>
-                            <ul className="space-y-3 text-lg sm:text-xl leading-relaxed text-gray-800">
-                                <li>Must have a valid driver’s license</li>
-                                <li>Operate a wheelchair lift to assist passengers</li>
-                            </ul>
-                        </div>
-
-                        {/* Ride along */}
-                        <div>
-                            <h3 className="text-2xl font-bold mb-4 text-black text-center">Ride-Along Staff</h3>
-                            <ul className="space-y-3 text-lg sm:text-xl leading-relaxed text-gray-800">
-                                <li>Support passengers as needed</li>
-                                <li>Bring a welcoming attitude</li>
-                            </ul>
-                        </div>
 
                         {/* Other Staff */}
                         <div>
@@ -91,7 +83,6 @@ export default function VolunteerPage() {
                                 <li>Use technology to improve Wheels operations</li>
                             </ul>
                         </div>
-
 
                     </div>
 
