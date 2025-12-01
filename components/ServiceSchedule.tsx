@@ -8,7 +8,13 @@ export default function ServiceSchedule() {
 
             <p className="text-xl text-gray-800">
                 To book a ride, please call our message line at{" "}
-                <strong>(803) 749-1911</strong> and leave a message before{" "}
+                <strong><a
+                    href="tel:+18037491911"
+                    className="hover:underline"
+                >
+                    (803) 749-1911
+                </a></strong>{" "}
+                and leave a voicemail message before{" "}
                 <strong>5:00 PM the day prior</strong>.
             </p>
 
