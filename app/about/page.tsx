@@ -41,8 +41,8 @@ export default function WhoWeArePage() {
                     <h2 className="text-4xl font-semibold text-black mb-6">Our Impact</h2>
                     <p className="max-w-4xl mx-auto text-xl leading-relaxed text-gray-800">
                         Over the past several decades, Wheels Harbison Area Transit has become a lifeline for the residents of Woods Edge,
-                        Lakeside, and AHEPA apartments, helping elderly and disabled individuals maintain their independence. <strong>In 2023 alone,
-                        our volunteer drivers transported 2,740 residents across 794 hours of service</strong>, completing hundreds of essential trips
+                        Lakeside, and AHEPA apartments, helping elderly and disabled individuals maintain their independence. <strong>In 2025 alone,
+                        our volunteer drivers transported 2,168 residents across 706 hours of service</strong>, completing hundreds of essential trips
                         to grocery stores, pharmacies, medical offices, and community centers. Beyond meeting transportation needs, our service
                         fosters connection and companionship among riders and volunteers, creating a sense of community that extends well beyond
                         each ride.
